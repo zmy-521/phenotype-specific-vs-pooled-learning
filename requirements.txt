@@ -1,0 +1,14 @@
+# Exact versions used for the frozen analyses (Python 3.13.5)
+matplotlib==3.10.9
+numpy==2.4.6
+openpyxl==3.1.5    # used through pandas for .xlsx output
+pandas==2.3.3
+pillow==12.2.0
+psutil==7.2.2
+psycopg2-binary==2.9.13    # only for building the analysis data from PostgreSQL
+pyarrow==24.0.0
+python-docx==1.2.0    # only for the read-only manuscript/supplement audits
+scikit-learn==1.9.0
+scipy==1.16.3
+threadpoolctl==3.6.0
+xgboost==3.2.0
