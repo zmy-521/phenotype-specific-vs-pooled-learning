@@ -1,6 +1,6 @@
 # Phenotype-specific versus phenotype-aware pooled learning — analysis code
 
-Code for the study *Phenotype-specific versus phenotype-aware pooled learning: a multicohort benchmark and simulation study*
+Code for the study *Phenotype-specific versus phenotype-aware pooled learning in a multicohort benchmark and simulation study*
 (citation to be added on publication).
 
 The scripts compare frozen pooled and phenotype-specific XGBoost development programs in three ICU databases (MIMIC-IV 3.1, eICU-CRD 2.0, NWICU 0.1.0),
@@ -28,7 +28,7 @@ in NHANES 1999–2008 with public-use linked mortality, and in known-truth simul
 | NWICU independent-program replication | pgss_r45_nwicu_*.py, pgss_r46_rerun.py, pgss_r46_readonly.py | Program redevelopment in NWICU 0.1.0, outcome-status correction |
 | Plasmode, learning curves, certification | pgss_r45_plasmode*.py, pgss_r43_readonly.py, pgss_r46_inference.py | Exploratory empirical-covariate simulation; training-fraction curves; fit–certify–test |
 | Post hoc NHANES creatinine standardization | pgss_r52_*.py, drivers/_r52_driver.py | Sensitivity redevelopment with NCHS-recommended 2005–2006 standardization |
-| Numbers, figures and supplementary tables | pgss_r47_numbers.py, pgss_r47_figures.py, pgss_r48_*.py, pgss_r49_*.py, pgss_r51_*.py, pgss_r54_supp_*.py, pgss_r56_*.py | Frozen number pack, Figures 1–6, Table 1 sources, Supplementary tables, predictor completeness |
+| Numbers, figures and supplementary tables | pgss_r47_numbers.py, pgss_r47_figures.py, pgss_r48_*.py, pgss_r49_*.py, pgss_r51_*.py, pgss_r54_supp_*.py, pgss_r56_*.py | Frozen number pack and figure source tables, draft versions of Figures 1–6, Table 1 sources, Supplementary tables, predictor completeness. The published figures were redrawn from these frozen source values; the plotted values are given in the Supplementary Tables and Supplementary Data |
 
 Script names keep the internal round numbers used during the study (for example `r42` = main ICU experiment). Comments and console messages are in Chinese.
 
@@ -58,4 +58,4 @@ Parts of this code were written with the assistance of AI coding tools under the
 
 ## License
 
-To be added by the authors before public release.
+MIT License; see `LICENSE`.
